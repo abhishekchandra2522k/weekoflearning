@@ -122,23 +122,24 @@ ul.vertNav li a:hover {
 }
 
 
-div#footer, div#footer a {
-	background-color: #003375;
+iv#footer, div#footer a {
+	background-color: #003345;
+	min-width: 40%;
 	width: 100%;
 	position: relative;
 	left: 0px;
 	right: 0px;
 	color: #DCFFFE;
 	font-size: 14px;
-	font-family: "Droid Sans", sans-serif;
+	font-family: "Manrope", sans-serif;
 	letter-spacing: 2px;
 	overflow: auto;
 	text-decoration: none;
 } 
-div#footer ul#credits {
-	list-style-type: circle;
+div#footer p#credits {
+	text-align: center;
 	color: #DCFFFE;
-}
+} 
 div#footer span#footright1 {
 	margin-left: 85%;
 	font-size: 19px;
